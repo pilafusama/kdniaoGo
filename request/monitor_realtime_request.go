@@ -17,6 +17,7 @@ type MonitorRealtimeRequest struct {
 	LogisticCode string `json:"LogisticCode"`        // 物流单号
 	ShipperCode  string `json:"ShipperCode"`         // 快递公司编码
 	OrderCode    string `json:"OrderCode,omitempty"` // 订单编号
+	CustomerName string `json:"CustomerName,omitempty"`
 }
 
 func (req *MonitorRealtimeRequest) SetLogisticCode(logisticCode string) *MonitorRealtimeRequest {
@@ -57,4 +58,9 @@ func (req MonitorRealtimeRequest) ToJson() string {
 		return ""
 	}
 	return string(str)
+}
+
+func (req *MonitorRealtimeRequest) SetCustomerName(customerName string) *MonitorRealtimeRequest {
+	req.CustomerName = customerName
+	return req
 }
