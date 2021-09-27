@@ -1,3 +1,3 @@
-module github.com/RiverDanceGit/kdniaoGo
+module github.com/pilafusama/kdniaoGo
 
 go 1.13
