@@ -1,8 +1,8 @@
 package test
 
 import (
-	"github.com/RiverDanceGit/kdniaoGo"
-	"github.com/RiverDanceGit/kdniaoGo/sdk"
+	"github.com/pilafusama/kdniaoGo"
+	"github.com/pilafusama/kdniaoGo/sdk"
 	"testing"
 )
 

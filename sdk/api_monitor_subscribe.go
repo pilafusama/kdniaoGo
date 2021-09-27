@@ -2,12 +2,12 @@ package sdk
 
 import (
 	"encoding/json"
-	"github.com/RiverDanceGit/kdniaoGo"
-	"github.com/RiverDanceGit/kdniaoGo/enum"
-	"github.com/RiverDanceGit/kdniaoGo/request"
-	"github.com/RiverDanceGit/kdniaoGo/response"
-	"github.com/RiverDanceGit/kdniaoGo/util"
-	"github.com/RiverDanceGit/kdniaoGo/util/http"
+	"github.com/pilafusama/kdniaoGo"
+	"github.com/pilafusama/kdniaoGo/enum"
+	"github.com/pilafusama/kdniaoGo/request"
+	"github.com/pilafusama/kdniaoGo/response"
+	"github.com/pilafusama/kdniaoGo/util"
+	"github.com/pilafusama/kdniaoGo/util/http"
 	"strconv"
 )
 

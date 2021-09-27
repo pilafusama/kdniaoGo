@@ -2,8 +2,8 @@ package request
 
 import (
 	"encoding/base64"
-	"github.com/RiverDanceGit/kdniaoGo"
-	"github.com/RiverDanceGit/kdniaoGo/util"
+	"github.com/pilafusama/kdniaoGo"
+	"github.com/pilafusama/kdniaoGo/util"
 	"net/url"
 )
 

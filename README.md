@@ -6,7 +6,7 @@ Go 1.12 or above.
 
 ## Install
 ```shell
-go get -u -x -v -insecure github.com/RiverDanceGit/kdniaoGo
+go get -u -x -v -insecure github.com/pilafusama/kdniaoGo
 ```
 
 ### Configure Parameter
