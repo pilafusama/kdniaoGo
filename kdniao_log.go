@@ -20,7 +20,7 @@ func NewKdniaoLogger() KdniaoLoggerInterface {
 }
 
 func (logs *KdniaoLogger) Error(args ...interface{}) {
-	log.Fatal(args)
+	log.Println("Error", args)
 }
 
 func (logs *KdniaoLogger) Info(args ...interface{}) {
