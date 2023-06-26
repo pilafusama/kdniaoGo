@@ -37,4 +37,7 @@ const (
 	REQUEST_TYPE_EVALUATE_COMPANY    = "1013"    // 物流评价API-获取企业列表
 	REQUEST_TYPE_EVALUATE_SCORE      = "1012"    // 物流评价API-获取企业平均分
 	REQUEST_TYPE_VERIFIED            = "1021"    // 实名寄递API
+
+	REQUEST_TYPE_MAP_REALTIME  = "8003" // 物流地图-即时查询
+	REQUEST_TYPE_MAP_SUBSCRIBE = "8005" // 物流地图-轨迹订阅
 )
