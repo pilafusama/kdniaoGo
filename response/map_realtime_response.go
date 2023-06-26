@@ -33,6 +33,7 @@ func (resp *MapRealtimeResponse) GetError() string {
 type MapRealtimeResponse struct {
 	EBusinessID           string                     `json:"EBusinessID"`
 	ShipperCode           string                     `json:"ShipperCode"`
+	OrderCode             string                     `json:"OrderCode"` // 订单编号
 	Success               bool                       `json:"Success"`
 	LogisticCode          string                     `json:"LogisticCode"`
 	SenderCityLatAndLng   string                     `json:"SenderCityLatAndLng"`
@@ -40,7 +41,7 @@ type MapRealtimeResponse struct {
 	State                 string                     `json:"State"`
 	CityIsNull            string                     `json:"CityIsNull"`
 	StateEx               string                     `json:"StateEx"`
-	Location              string                     `json:"Location"`
+	Location              string                     `json:"Location"` // 当前城市
 	Traces                []MapRealtimeResponseTrace `json:"Traces"`
 	Coordinates           []struct {                 // 当前城市经纬度
 		Location  string `json:"Location"`
