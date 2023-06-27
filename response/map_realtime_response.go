@@ -39,7 +39,7 @@ type MapRealtimeResponse struct {
 	SenderCityLatAndLng   string                     `json:"SenderCityLatAndLng"`
 	ReceiverCityLatAndLng string                     `json:"ReceiverCityLatAndLng"`
 	State                 string                     `json:"State"`
-	CityIsNull            string                     `json:"CityIsNull"`
+	CityIsNull            bool                       `json:"CityIsNull"`
 	StateEx               string                     `json:"StateEx"`
 	Location              string                     `json:"Location"` // 当前城市
 	Traces                []MapRealtimeResponseTrace `json:"Traces"`
