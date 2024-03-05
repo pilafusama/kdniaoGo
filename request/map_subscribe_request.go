@@ -16,6 +16,7 @@ func NewMapSubscribeRequest() MapSubscribeRequest {
 type MapSubscribeRequest struct {
 	KdniaoRequest
 	CallBack            string     `json:"Callback,omitempty"`     // 用户自定义回调信息
+	CallbackUrl         string     `json:"CallbackUrl,omitempty"`  // 自定义回调地址
 	MemberId            string     `json:"MemberID,omitempty"`     // 会员标识
 	WareHouseId         string     `json:"WareHouseID,omitempty"`  // 仓库标识
 	CustomerName        string     `json:"CustomerName,omitempty"` // 电子面单客户号
